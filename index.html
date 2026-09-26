@@ -13,7 +13,7 @@ nav .wrap{height:100%;display:flex;align-items:center;gap:32px}.brand{font:900 2
 .hero{min-height:830px;position:relative;display:flex;align-items:flex-end;background-image:linear-gradient(90deg,#050505 0%,#050505ee 26%,#050505a5 48%,#05050535 76%),linear-gradient(0deg,#070707 0%,transparent 42%),url('images/hero.jpg');background-size:cover;background-position:center}
 .hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 72% 45%,transparent 0 20%,#0004 75%)}.hero-inner{position:relative;z-index:2;padding:155px 0 72px}.eyebrow{display:flex;align-items:center;gap:12px;color:var(--gold);font-size:10px;text-transform:uppercase;letter-spacing:5px;font-weight:900}.eyebrow:before{content:"";height:2px;width:38px;background:var(--red)}
 h1{font:900 clamp(76px,9vw,145px)/.77 "Barlow Condensed";letter-spacing:-4px;text-transform:uppercase;margin:24px 0 26px;max-width:850px}h1 em{display:block;color:var(--red);font-style:italic}.lead{max-width:590px;color:#d3d3d3;line-height:1.7;font-size:15px}.actions{display:flex;gap:11px;margin-top:28px}.btn{padding:15px 22px;border:1px solid #ffffff5a;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.7px}.btn.red{background:var(--red);border-color:var(--red)}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);max-width:900px;border-top:1px solid #ffffff2c;margin-top:55px}.stat{padding:22px 25px 0 0;border-right:1px solid #ffffff28}.stat strong{font:800 34px "Barlow Condensed";display:block}.stat small{color:#aaa;text-transform:uppercase;letter-spacing:1px;font-size:9px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);max-width:900px;margin-top:55px}.stat{padding:22px 25px 0 0;}.stat strong{font:800 34px "Barlow Condensed";display:block}.stat small{color:#aaa;text-transform:uppercase;letter-spacing:1px;font-size:9px}
 .ticker{overflow:hidden;background:var(--gold);color:#080808}.ticker-track{display:flex;width:max-content;gap:55px;padding:14px 0;animation:ticker 24s linear infinite;font:900 18px "Barlow Condensed";text-transform:uppercase;letter-spacing:3px}.ticker span:after{content:"✦";margin-left:55px}@keyframes ticker{to{transform:translateX(-50%)}}
 .intro{display:grid;grid-template-columns:1fr 1fr}.intro-photo{min-height:650px;background:url('images/reception.jpg') center/cover;position:relative}.intro-photo:after{content:"THE REAL TRAINING FLOOR";position:absolute;bottom:30px;left:32px;font:italic 900 34px "Barlow Condensed";background:#090909e8;padding:8px 13px;border-left:5px solid var(--red)}
 .intro-copy{background:var(--cream);color:#101010;padding:75px clamp(35px,6vw,95px);display:flex;justify-content:center;flex-direction:column}.kicker{color:#a72328;font-size:9px;text-transform:uppercase;letter-spacing:4px;font-weight:900}.title{font:900 clamp(52px,6vw,86px)/.85 "Barlow Condensed";text-transform:uppercase;letter-spacing:-2px;margin:14px 0 24px}.title span{color:#bc2329}.intro-copy p{color:#454545;font-size:14px;line-height:1.8;max-width:640px}.features{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#bbb;border:1px solid #bbb;margin-top:28px}.feature{padding:18px;background:var(--cream)}.feature b{font:800 19px "Barlow Condensed";text-transform:uppercase;display:block}.feature small{font-size:10px;color:#666}
@@ -26,7 +26,7 @@ footer{padding:30px 0;color:#777;font-size:9px;text-transform:uppercase;letter-s
 </style></head>
 <body>
 <nav><div class="wrap"><a class="brand" href="#">ROYAL <span>FITNESS CLUB</span></a><div class="links"><a href="#about">About</a><a href="#gym">The Gym</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></div><a class="phone" href="tel:+917840919558">☎ 078409 19558</a><a class="call" href="tel:+917840919558">Call now →</a></div></nav>
-<header class="hero"><div class="wrap hero-inner"><div class="eyebrow">Phursungi · Bhekrai Nagar</div><h1>Built for <em>real strength.</em></h1><p class="lead">Royal Fitness Club — a training space members highlight for powerlifting, high-intensity workouts, equipment variety and supportive trainer guidance.</p><div class="actions"><a class="btn red" href="tel:+917840919558">Call 078409 19558</a><a class="btn" href="#visit">Find the gym ↓</a></div><div class="stats"><div class="stat"><strong>4.8 ★</strong><small>Google rating</small></div><div class="stat"><strong>46</strong><small>Reviews</small></div><div class="stat"><strong>10 PM</strong><small>Closing time shown</small></div><div class="stat"><strong>POWER</strong><small>Member-highlighted focus</small></div></div></div></header>
+<header class="hero"><div class="wrap hero-inner"><div class="eyebrow">Phursungi · Bhekrai Nagar</div><h1>Built for <em>real strength.</em></h1><p class="lead">Royal Fitness Club — a training space members highlight for powerlifting, high-intensity workouts, equipment variety and supportive trainer guidance.</p><div class="actions"><a class="btn red" href="tel:+917840919558">Call 078409 19558</a><a class="btn" href="#visit">Find the gym ↓</a></div><div class="stats"><div class="stat"><strong><span class="counter" data-target="4.8" data-decimals="1">0.0</span> ★</strong><small>Google rating</small></div><div class="stat"><strong><span class="counter" data-target="46" data-decimals="0">0</span></strong><small>Reviews</small></div><div class="stat"><strong><span class="counter" data-target="10" data-decimals="0">0</span> PM</strong><small>Closing time shown</small></div><div class="stat"><strong>POWER</strong><small>Member-highlighted focus</small></div></div></div></header>
 <div class="ticker"><div class="ticker-track"><span>Powerlifting</span><span>High Intensity</span><span>Strength</span><span>Guidance</span><span>Discipline</span><span>Powerlifting</span><span>High Intensity</span><span>Strength</span><span>Guidance</span><span>Discipline</span></div></div>
 <section class="intro" id="about"><div class="intro-photo"></div><div class="intro-copy reveal"><div class="kicker">Royal Fitness Club</div><h2 class="title">No gimmicks.<br><span>Just training.</span></h2><p>Members describe Royal Fitness Club as a well-equipped gym with a strong focus on powerlifting and high-intensity training. Reviews also highlight knowledgeable, supportive trainers and guidance around exercise and diet.</p><div class="features"><div class="feature"><b>Equipment variety</b><small>Repeatedly highlighted by members</small></div><div class="feature"><b>Trainer guidance</b><small>Supportive coaching mentioned in reviews</small></div><div class="feature"><b>Powerlifting</b><small>A recurring member highlight</small></div><div class="feature"><b>Fresh environment</b><small>Positive atmosphere noted by reviewers</small></div></div></div></section>
 <section class="gallery" id="gym"><div class="wrap"><div class="gallery-head reveal"><div><div class="kicker">Inside the club</div><h2 class="title">This is where<br>the work happens.</h2></div><p>Real photographs from Royal Fitness Club — strength equipment, free weights, training stations and cardio equipment inside the Phursungi facility.</p></div><div class="grid"><div class="shot"><img src="images/gym-floor.jpg" alt="Royal Fitness Club gym floor"><label>Main floor</label></div><div class="shot"><img src="images/reception.jpg" alt="Royal Fitness Club reception and strength area"><label>Royal Fitness Club</label></div><div class="shot"><img src="images/strength-zone.jpg" alt="Royal Fitness Club strength equipment"><label>Strength zone</label></div><div class="shot"><img src="images/cardio-zone.jpg" alt="Royal Fitness Club cardio equipment"><label>Cardio</label></div></div></div></section>
@@ -35,4 +35,39 @@ footer{padding:30px 0;color:#777;font-size:9px;text-transform:uppercase;letter-s
 <section class="visit" id="visit"><div class="visit-copy reveal"><div class="kicker" style="color:white">Phursungi</div><h2>Show up.<br>Put in work.</h2><p>Behind Bhekrai Bus Depot, above Perfect Insurance Solutions, Phursungi, Bhekrai Nagar, Maharashtra 412308.</p><div class="actions"><a class="btn" href="tel:+917840919558">☎ Call the gym</a></div></div><div class="visit-photo"></div></section>
 <footer><div class="wrap foot"><span>Royal Fitness Club · Phursungi</span><span>078409 19558</span></div></footer>
 <script>const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(e=>io.observe(e));</script>
-</body></html>
+<script>
+const counters = document.querySelectorAll('.counter');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+
+    const counter = entry.target;
+    const target = parseFloat(counter.dataset.target);
+    const decimals = parseInt(counter.dataset.decimals || 0);
+    const duration = 1800;
+    const startTime = performance.now();
+
+    function animate(now) {
+      const progress = Math.min((now - startTime) / duration, 1);
+
+      // Fast casino-style climb, slowing near the final number
+      const eased = 1 - Math.pow(1 - progress, 4);
+      const value = target * eased;
+
+      counter.textContent = value.toFixed(decimals);
+
+      if (progress < 1) {
+        requestAnimationFrame(animate);
+      } else {
+        counter.textContent = target.toFixed(decimals);
+      }
+    }
+
+    requestAnimationFrame(animate);
+    observer.unobserve(counter);
+  });
+}, { threshold: 0.4 });
+
+counters.forEach(counter => observer.observe(counter));
+</script></body></html>
